@@ -12,8 +12,8 @@ Vendor: log4cplus project, packaged for 42ITy
 Packager: Yusuke SATO <y-sato@y-sa.to>
 Url: http://log4cplus.sourceforge.net/
 
-###Source: %name-%version.tar.gz
-Source: %{name}_%{version}-3.2.orig.tar.gz
+Source: %{name}-%{version}.tar.gz
+###Source: %{name}_%{version}-3.2.orig.tar.gz
 
 Prefix: %_prefix
 BuildRoot: %_tmppath/%name-%version-root
